@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 """
-app
+app for registering blueprint and starting Flask
 """
 
-from flask import Flask, jsonify
+from flask import Flask, make response, jsonify
 from flask_cors import CORS
 from os import getenv
 
